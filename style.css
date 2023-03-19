@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Lobster&family=Signika:wght@300&display=swap');
+html {
+  height: 100%;
+  width: 100%; 
+  background:#8990ec;
+}
+
+.title{
+  font-family: 'Hind Madurai', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Signika', sans-serif;
+  color:#f1f2f6;
+  font-weight:500;
+  margin-bottom:0.6rem;
+  
+}
+
+.container label{
+  margin:0.6rem;
+}
+
+.wrapper{
+  background:#272639;
+  width:360px;
+  height:50vh;
+  border-radius:1rem;
+  padding:1.2rem;
+  color:white;
+  margin:100px auto;
+}
+.container{
+  margin-top:1.2rem;
+}
+
+#bottom{
+  display:flex;
+  justify-content:space-between;
+}
+
+.container .tipInput{
+  background: #574b90;
+}
+
+.topContainer{
+  margin-top:1.4rem;
+}
+
+.inputContainer{
+  background:#353959;
+  border-radius:1.4rem;
+
+  padding: 0 0.8rem;
+  display:flex;
+  align-items:center;
+  margin-bottom:1.5rem;
+}
+#billTotalInput,
+#tipInput{
+  background:none;
+  border:none;
+  outline:none;
+  padding:none;
+  font-size:1.2rem;
+  
+}
+
+.buttonContainer{
+  background:#8990ec;
+  display:grid;
+  place-items:center;
+  width:1.6rem;
+  height:1.6rem;
+  border-radius:50%;
+}
+
+.splitButton{
+  background:none;
+  border:none;
+}
+
+.controls{
+  display:flex;
+  align-items:center;
+}
+
+.splitButton{
+  font-size:0.8rem;
+  font-weight:bold;
+  display:grid;
+  place-items:center;
+}
+
+.splitAmount{
+  margin:0.8rem;
+  font-size:1.6rem;
+}
+
+.buttontext{
+  color:#353959 !important;
+}
+
+#bottom{
+  display:flex;
+  justify-content:space-between;
+  font-size:1.2rem;
+  align-items:flex-end;
+  margin-top:1.5rem;
+}
